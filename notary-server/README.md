@@ -4,7 +4,7 @@ An implementation of the notary server in Rust.
 
 ## ⚠️ Notice
 
-This crate is currently under active development and should not be used in production. Expect bugs and regular major breaking changes.
+This crate is currently under active development and should not be used in production. Expect bug and regular major breaking changes.
 
 ---
 ## Running the server
