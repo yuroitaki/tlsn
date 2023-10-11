@@ -23,6 +23,7 @@ jobs:
       fail-fast: false
       matrix:
         package:
+          - notary-server
           - components/integration-tests
           - components/uid-mux
           - components/cipher
@@ -33,7 +34,6 @@ jobs:
           - components/prf
           - components/tls
           - tlsn
-          - notary-server
         include:
           - package: components/integration-tests
             release: true

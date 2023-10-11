@@ -23,7 +23,7 @@ jobs:
           check-name: 'Build and test (notary-server)'
           repo-token: ${{ secrets.GITHUB_TOKEN }}
           # How frequent (in seconds) this job will call GitHub API to check the status of the job specified at 'check-name'
-          wait-interval: 60
+          wait-interval: 30
 
       - name: Checkout repository
         uses: actions/checkout@v3
