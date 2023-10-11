@@ -19,8 +19,8 @@ jobs:
       - name: Wait for test workflow to succeed
         uses: lewagon/wait-on-check-action@v1.3.1
         with:
-          ref: ${{ github.sha }}
-          check-name: 'Build and test'
+          ref: ${{ github.ref }}
+          check-name: 'Build and test (notary-server)'
           repo-token: ${{ secrets.GITHUB_TOKEN }}
           # How frequent (in seconds) this job will call GitHub API to check the status of the job specified at 'check-name'
           wait-interval: 60
