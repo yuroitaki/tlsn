@@ -1,6 +1,3 @@
-var srcIndex = JSON.parse('{\
-"tlsn_core":["",[["commitment",[],["blake3.rs","builder.rs","mod.rs"]],["proof",[],["mod.rs","substrings.rs","tls.rs"]],["session",[],["data.rs","handshake.rs","header.rs","mod.rs"]]],["lib.rs","merkle.rs","msg.rs","signature.rs","transcript.rs"]],\
-"tlsn_notary":["",[],["config.rs","error.rs","lib.rs"]],\
-"tlsn_prover":["",[],["config.rs","error.rs","lib.rs","state.rs"]]\
-}');
+var srcIndex = new Map(JSON.parse('[["tlsn_core",["",[["attestation",[],["builder.rs","config.rs","extension.rs","proof.rs"]],["connection",[],["commit.rs","proof.rs"]],["fixtures",[],["provider.rs"]],["request",[],["builder.rs","config.rs"]],["transcript",[["encoding",[],["encoder.rs","proof.rs","provider.rs","tree.rs"]]],["commit.rs","encoding.rs","hash.rs","proof.rs"]]],["attestation.rs","connection.rs","fixtures.rs","hash.rs","index.rs","lib.rs","merkle.rs","presentation.rs","provider.rs","request.rs","secrets.rs","serialize.rs","signing.rs","transcript.rs"]]],["tlsn_prover",["",[],["config.rs","error.rs","future.rs","lib.rs","notarize.rs","prove.rs","state.rs"]]],["tlsn_verifier",["",[],["config.rs","error.rs","lib.rs","notarize.rs","state.rs","verify.rs"]]],["tlsn_wasm",["",[["prover",[],["config.rs","mod.rs"]],["verifier",[],["config.rs","mod.rs"]]],["io.rs","lib.rs","log.rs","types.rs"]]]]'));
 createSrcSidebar();
+//{"start":36,"fragment_lengths":[534,106,97,136]}
